@@ -3,6 +3,7 @@ name: Teste de Performance e Deploy para GitHub Pages
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: read
